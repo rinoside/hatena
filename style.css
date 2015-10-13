@@ -1,0 +1,141 @@
+/* <system section="theme" selected="8454420450091363061"> */
+@import url("http://hatenablog.com/theme/8454420450091363061.css");
+/* </system> */
+
+/* <system section="background" selected="custom"> */
+body{ background-image: url('http://f.st-hatena.com/images/fotolife/r/rinoside/20150930/20150930024111.png'); background-repeat: no-repeat; background-color:#9DD5CE; background-attachment: fixed; background-position: center -15px;}
+/* </system> */
+
+/*common------*/
+* {
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*記事内------*/
+.entry-content h1{
+    border-bottom: 1px solid #333;
+}
+.entry-content p{
+    margin-bottom:25px;
+}
+.entry-content img{
+    display:block;
+    margin-bottom:50px;
+}
+.footertop{
+    height:100px;
+}
+#blog-title-content{
+	background: url('http://f.st-hatena.com/images/fotolife/r/rinoside/20150929/20150929213854.png') left top no-repeat;
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+    padding: 22px 30px 36px 30px;
+    display: inline-block;
+    border-radius: 6px;
+}
+#blog-title{
+    padding:81px 0;
+}
+.detail_bloc{
+	padding: 40px 0;
+}
+.snsshare_cap p{
+	font-size: 18px;
+}
+.entry-content a,
+.all_archive a{
+	color: #4db1a4;
+	font-weight: bold;
+}
+.entry-content a:hover,
+.all_archive a:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+.all_archive{
+    margin-top:-40px;
+}
+
+@media screen and (min-width:960px) {
+	#box2{
+		float: left;
+	}
+	#main{
+		padding-left: 48px;
+		border-left: 1px solid #e4e4e4;
+		border-right: none;
+	}
+	#wrapper{
+	    float: right;
+	    margin-right: 0;
+        padding-right: 0;
+        margin-left: -348px;
+        padding-left: 348px;
+    }
+}
+
+/*カテゴリ一覧上部広告------*/
+.google_ads_by {
+    color: #eee;
+}
+.google-afc-text ul .title a,.google-afc-text li{
+    color: #ccc;
+}
+.hatena-module-title {
+    font-weight: bold;
+    border-top: 1px dashed #ADD4CD;
+    padding-top: 8px;
+}
+
+/*profile------*/
+.myprof .img{
+	width: 80%;
+	margin: auto;
+}
+.myprof .img img{
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.myprof dl dt{
+	text-align: center;
+	margin: 20px 0 5px 0;
+	font-size: 18px;
+}
+.myprof dl dt a{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #73A9EE;
+}
+.myprof dl dt a span{
+    font-size:10px;
+    padding-left: 5px;
+}
+
+.myprof dl dd{
+	margin: 0;
+}
+
+/*レスポンシブ調整用------*/
+@media screen and (max-width: 959px){
+	body{
+		background: url('http://f.st-hatena.com/images/fotolife/r/rinoside/20150930/20150930024112.png') center -20px no-repeat;
+		-webkit-background-size: 100%;
+		     -o-background-size: 100%;
+		        background-size: 100%;
+		background-color: #9DD5CE;
+	}
+	#blog-title-content{
+		width: 100%;	
+	    padding: 12% 0 18% 0 ;
+	    text-align: center;
+	}
+}
+@media screen and (max-width: 400px){
+	#blog-title-content{
+	    padding: 9% 0 13%;
+	}
+}
