@@ -10,7 +10,7 @@
 - **header**
   - header_btm.html 
 - **footer**
-	- 　footer.html
+	- footer.html
 - **archive**
   - archibe_btm.html
   - archive_top.html
