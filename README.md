@@ -4,7 +4,12 @@
 ##ファイル構成
 - style.css
 - **sidemenu**
-  - profile.html 
+  - aout.html 
+  - twitter_wigets
+- **header**
+  - header_btm 
+- **footer**
 
+ 
 ##リリース方法
 [http://blog.hatena.ne.jp/](http://blog.hatena.ne.jp/)へアクセス
