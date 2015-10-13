@@ -2,13 +2,18 @@
 スタイル・デザイン更新用
 
 ##ファイル構成
-- style.css
+- **style**
+	- style.css
 - **sidemenu**
   - aout.html 
-  - twitter_wigets
+  - twitter_wigets.html 
 - **header**
-  - header_btm 
+  - header_btm.html 
 - **footer**
+	- 　footer.html
+- **archive**
+  - archibe_btm.html
+  - archive_top.html
 
  
 ##リリース方法
