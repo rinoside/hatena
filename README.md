@@ -3,7 +3,7 @@
 
 ##ファイル構成
 - style.css
-- sidemenu
+- **sidemenu**
   - profile.html 
 
 ##リリース方法
