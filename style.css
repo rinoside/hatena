@@ -15,6 +15,18 @@ body{ background-image: url('http://f.st-hatena.com/images/fotolife/r/rinoside/2
 }
 
 /*記事内------*/
+/*header*/
+.entry-title{
+	margin-bottom: 25px;
+}
+.categories{
+	margin-bottom: 15px;
+}
+.customized-header{
+	margin-bottom: 20px;
+}
+/*/header*/
+
 .entry-content h1{
     border-bottom: 1px solid #333;
 }
@@ -60,22 +72,42 @@ body{ background-image: url('http://f.st-hatena.com/images/fotolife/r/rinoside/2
     margin-top:-40px;
 }
 
-@media screen and (min-width:960px) {
-	#box2{
-		float: left;
-	}
-	#main{
-		padding-left: 48px;
-		border-left: 1px solid #e4e4e4;
-		border-right: none;
-	}
-	#wrapper{
-	    float: right;
-	    margin-right: 0;
-        padding-right: 0;
-        margin-left: -348px;
-        padding-left: 348px;
-    }
+/*一覧ページ*/
+.archive-entries p.entry-description{  
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+} 
+.archive-entries .autopagerize_page_element{
+	position: relative;
+	padding-bottom: 175px;
+}
+.archive-entries .archive-entry-header{
+	position: absolute;
+	top: 0;
+	left: 140px;
+}
+.archive-entries .archive-entry-header .entry-title{
+    overflow: hidden;  
+    white-space: nowrap;  
+    text-overflow: ellipsis;
+    width: 365px;
+}
+.archive-entries .categories{
+	position: absolute;
+	left: 140px;
+	top: 5.5em;
+}
+.archive-entries .entry-thumb-link{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.archive-entries .archive-entry-body{
+	position: absolute;
+	top: 72px;
+	left: 0;
 }
 
 /*カテゴリ一覧上部広告------*/
@@ -93,7 +125,7 @@ body{ background-image: url('http://f.st-hatena.com/images/fotolife/r/rinoside/2
 
 /*profile------*/
 .myprof .img{
-	width: 80%;
+	width: 62%;
 	margin: auto;
 }
 .myprof .img img{
@@ -120,6 +152,25 @@ body{ background-image: url('http://f.st-hatena.com/images/fotolife/r/rinoside/2
 }
 
 /*レスポンシブ調整用------*/
+/*960xp以上のみ、*/
+@media screen and (min-width:960px) {
+	#box2{
+		float: left;
+	}
+	#main{
+		padding-left: 48px;
+		border-left: 1px solid #e4e4e4;
+		border-right: none;
+	}
+	#wrapper{
+	    float: right;
+	    margin-right: 0;
+        padding-right: 0;
+        margin-left: -348px;
+        padding-left: 348px;
+    }
+}
+/*960xp以下のみ、*/
 @media screen and (max-width: 959px){
 	body{
 		background: url('http://f.st-hatena.com/images/fotolife/r/rinoside/20150930/20150930024112.png') center -20px no-repeat;
@@ -132,6 +183,21 @@ body{ background-image: url('http://f.st-hatena.com/images/fotolife/r/rinoside/2
 		width: 100%;	
 	    padding: 12% 0 18% 0 ;
 	    text-align: center;
+	}
+	.archive-entries .archive-entry-header .entry-title{
+	    width: 420px;
+	}
+}
+@media screen and (max-width: 639px){
+	.archive-entries .archive-entry-header{
+		width: 60%;
+	}
+	.archive-entries .archive-entry-header .entry-title{
+		font-size: 20px;
+	    width: 100%;
+	}
+	.archive-entries .archive-entry-body{
+		width: 100%;
 	}
 }
 @media screen and (max-width: 400px){
